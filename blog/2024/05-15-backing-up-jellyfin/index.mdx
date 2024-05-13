@@ -24,6 +24,8 @@ Jellyfin does not have a downgrade mechanism. This is very important to understa
 
 This may also come in handy if you hit a bug. For instance, if a bug in the new version causes corruption of some aspect of the Jellyfin data, restoring from a backup means you can quickly restore to good data and apply any fixes to avoid a repeat. Without a backup, you would be completely out of luck in this situation.
 
+Finally, backups are critical if you want to test Unstable versions, for all the reasons above. In fact, when testing Unstable, it is best to back up much more regularly, perhaps using a cron job or similar automatic mechanism, to ensure that your data can be recovered if you hit a major issue.
+
 Hopefully this outlines why backups of your Jellyfin data are important. Next, we'll cover how to take backups and restore from them should you need to.
 
 ## Taking a Backup
